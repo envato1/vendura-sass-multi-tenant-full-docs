@@ -1,4 +1,4 @@
-name: Build Docs
+name: Deploy Nuxt Content to GitHub Pages (gh-pages)
 
 on:
   push:
@@ -9,11 +9,10 @@ permissions:
   contents: write
 
 env:
-  BUILD_DIR: .output
-  PAGES_DIR: public
+  BUILD_DIR: .output/public
 
 jobs:
-  build-to-docs:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -31,15 +30,11 @@ jobs:
       - name: Build site
         run: npm run build
 
-      - name: Prepare /docs (disable Jekyll)
-        run: |
-          rm -rf "${PAGES_DIR}"
-          mkdir -p "${PAGES_DIR}"
-          cp -R "${BUILD_DIR}/." "${PAGES_DIR}/"
-          touch "${PAGES_DIR}/.nojekyll"
-
-      - name: Commit built site to /docs
-        uses: stefanzweifel/git-auto-commit-action@v5
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          commit_message: "ci: build docs for GitHub Pages"
-          file_pattern: "${{ env.PAGES_DIR }}/*"
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ${{ env.BUILD_DIR }}
+          publish_branch: gh-pages
+          enable_jekyll: false
+          force_orphan: true
