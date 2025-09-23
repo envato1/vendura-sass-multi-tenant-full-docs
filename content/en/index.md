@@ -22,17 +22,6 @@ Get up and running with a POS personalized for however you do business.
   ---
   Get started
   :::
-
-  :::u-button
-  ---
-  color: neutral
-  icon: simple-icons-github
-  size: xl
-  to: https://github.com/nuxt-ui-pro/docus
-  variant: outline
-  ---
-  Star on GitHub
-  :::
 ::
 
 ::u-page-section
