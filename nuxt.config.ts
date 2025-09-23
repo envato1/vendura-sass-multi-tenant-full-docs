@@ -1,4 +1,7 @@
 export default defineNuxtConfig({
+  app: {
+    baseURL: process.env.BASE_URL || '/',
+  },
   modules: [
     '@nuxtjs/i18n',
     '@nuxt/content',
@@ -19,5 +22,8 @@ export default defineNuxtConfig({
     preview: {
       api: 'https://api.nuxt.studio'
     }
+  },
+  routeRules: {
+    '/**': { prerender: true }
   }
 })
