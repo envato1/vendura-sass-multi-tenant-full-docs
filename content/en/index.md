@@ -3,6 +3,9 @@ seo:
   title: A POS ready for what you've got
   description: Ship fast, flexible, and Get up and running with a POS personalized
     for however you do business.
+title: Vendura - The best Multi-Store Point Of Sale With Inventory Management &
+  Sass Ready
+description: The best Multi-Store Point Of Sale With Inventory Management & Sass Ready
 ---
 
 ::u-page-hero
@@ -33,7 +36,7 @@ Shipped with many features
   ---
   icon: i-material-symbols-garden-cart-outline-sharp
   target: _blank
-  to: https://nuxt.com
+  to: "#"
   ---
   #title
   Point of Sale (POS)
@@ -59,7 +62,7 @@ Shipped with many features
   ---
   icon: i-material-symbols-warehouse-outline
   target: _blank
-  to: https://nuxt.com
+  to: "#"
   ---
   #title
   Multi-Store Management
