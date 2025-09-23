@@ -49,6 +49,9 @@ jobs:
           BASE_URL: /vendura-sass-multi-tenant-full-docs/
         run: |
           npm run build
+
+      - name: Copy en.html to index.html
+        run: cp .output/public/en.html .output/public/index.html
           
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
