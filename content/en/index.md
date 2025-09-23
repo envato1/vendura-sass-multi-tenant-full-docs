@@ -27,14 +27,7 @@ Get up and running with a POS personalized for however you do business.
   Getting started
   :::
 
-  :::u-button
-  ---
-  color: neutral
-  size: xl
-  to: "#"
-  trailing-icon: i-lucide-arrow-right
-  variant: outline
-  ---
+  :::u-button{color="neutral" size="xl" to="#" variant="outline"}
   Buy on envato
   :::
 ::
