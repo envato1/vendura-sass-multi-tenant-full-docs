@@ -71,4 +71,43 @@ Shipped with many features
   #description
   Manage all your stores from a single, centralized dashboard. You can choose to apply unified pricing across locations or customize catalogs for each store, transfer products between outlets in seconds, and generate consolidated or store-specific reports with ease.
   :::
+
+  :::u-page-feature
+  ---
+  icon: i-material-symbols-emoji-people-rounded
+  target: _blank
+  to: "#"
+  ---
+  #title
+  Customer Management & Loyalty
+  
+  #description
+  Build strong customer relationships with detailed profiles and purchase history. Reward shoppers through built-in loyalty programs with points, cashback, or rewards, and run targeted marketing campaigns with personalized offers. Automated notifications such as birthday messages and special discounts keep your customers coming back.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-material-symbols-bar-chart-4-bars-rounded
+  target: _blank
+  to: "#"
+  ---
+  #title
+  Reports & Analytics
+  
+  #description
+  Stay on top of your business with a real-time dashboard and in-depth sales reports by product, category, staff, or store. Gain insights into profit margins and revenue trends, and use stock forecasting powered by sales history to always keep the right products on hand.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-material-symbols-network-node
+  target: _blank
+  to: "#"
+  ---
+  #title
+  Integrations & Accessibility
+  
+  #description
+  Our system works with your existing hardware like printers, barcode scanners, and payment terminals, and integrates with accounting, e-commerce, and delivery platforms. Being fully cloud-based, it’s secure, always backed up, and accessible anywhere. Plus, our mobile app gives you quick access to sales, inventory, and reports on the go.
+  :::
 ::
