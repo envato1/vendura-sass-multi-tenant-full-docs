@@ -1,9 +1,8 @@
 ---
 seo:
   title: A POS ready for what you've got
-  description: Ship fast, flexible, and SEO-optimized documentation with beautiful
-    design out of the box. Docus brings together the best of the Nuxt ecosystem.
-    Powered by Nuxt UI Pro.
+  description: Ship fast, flexible, and Get up and running with a POS personalized
+    for however you do business.
 ---
 
 ::u-page-hero
@@ -11,8 +10,7 @@ seo:
 A POS ready for what you've got
 
 #description
-Get up and running with a POS personalized for however you do business. 
-
+Get up and running with a POS personalized for however you do business.
 
 #links
   :::u-button
@@ -55,7 +53,6 @@ Shipped with many features
   description of feature one
   :::
 
-
   :::u-page-feature
   ---
   icon: i-simple-icons-nuxt
@@ -81,5 +78,4 @@ Shipped with many features
   #description
   description of feature three
   :::
-  
 ::
