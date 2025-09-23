@@ -10,6 +10,9 @@ description: The best Multi-Store Point Of Sale With Inventory Management & Sass
 ---
 
 ::u-page-hero
+#headline
+The best Multi-Store Point Of Sale With Inventory Management & Sass Ready
+
 #title
 A POS ready for what you've got
 
