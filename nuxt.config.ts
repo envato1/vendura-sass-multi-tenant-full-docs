@@ -15,4 +15,9 @@ export default defineNuxtConfig({
       name: 'French',
     }],
   },
+  content: {
+    preview: {
+      api: 'https://api.nuxt.studio'
+    }
+  }
 })
