@@ -31,12 +31,12 @@ Shipped with many features
 #features
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
+  icon: i-material-symbols-garden-cart-outline-sharp
   target: _blank
   to: https://nuxt.com
   ---
   #title
-  🛒 Point of Sale (POS)
+  Point of Sale (POS)
   
   #description
   Our modern and intuitive POS works seamlessly on desktop, tablet, and mobile, letting you accept multiple payment options such as cash, card, mobile wallets, or even split payments. Every transaction is stored in a complete history, and customers can receive digital or printed receipts via email, SMS, or WhatsApp. You can also boost sales with flexible discounts, promotions, and coupon management built right in.
@@ -44,12 +44,12 @@ Shipped with many features
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
+  icon: i-material-symbols-box
   target: _blank
-  to: https://nuxt.com
+  to: "#"
   ---
   #title
-  📦 Inventory Management
+  Inventory Management
   
   #description
   Track your stock in real time across every store, receive automatic low-stock alerts, and move products effortlessly between warehouses or locations. Inventory counts are quick and accurate with barcode or QR code scanning, while a detailed history of stock movements keeps you in full control.
@@ -57,12 +57,12 @@ Shipped with many features
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
+  icon: i-material-symbols-warehouse-outline
   target: _blank
   to: https://nuxt.com
   ---
   #title
-  🏬 Multi-Store Management
+  Multi-Store Management
   
   #description
   Manage all your stores from a single, centralized dashboard. You can choose to apply unified pricing across locations or customize catalogs for each store, transfer products between outlets in seconds, and generate consolidated or store-specific reports with ease.
