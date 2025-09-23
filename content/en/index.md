@@ -20,7 +20,7 @@ Get up and running with a POS personalized for however you do business.
   to: /en/getting-started/installation
   trailing-icon: i-lucide-arrow-right
   ---
-  Get started
+  Getting started
   :::
 ::
 
