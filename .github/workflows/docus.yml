@@ -2,7 +2,7 @@ name: Deploy Nuxt Content to GitHub Pages (gh-pages)
 
 on:
   push:
-    branches: ["**"]
+    branches: ["main"]
   workflow_dispatch:
 
 permissions:
@@ -21,7 +21,7 @@ jobs:
           node-version: "20"
           cache: "npm"
       - run: npm ci
-      - run: npm run build
+      - run: npx nuxi generate
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
