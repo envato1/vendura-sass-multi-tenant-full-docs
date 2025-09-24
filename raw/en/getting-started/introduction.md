@@ -2,7 +2,11 @@
 
 > Welcome to Vendura documentation.
 
-[Get Started](/en/getting-started)
+<note>
+
+We are not just selling a script, we are providing over 10 years of retail POS software experience.
+
+</note>
 
 ## What is Vendura?
 
